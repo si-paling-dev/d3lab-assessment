@@ -5,8 +5,8 @@ import readline from 'readline';
 
 dotenv.config()
 
-let ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY; // this will result null
-let ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY; // this will result null
+let ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY; 
+let ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY; 
 const BAYC_CONTRACT = "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D";
 const BATCH_SIZE = 200; // Number of addresses to process in each batch
 
